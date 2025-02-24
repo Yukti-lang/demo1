@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en" style="background-color: black;">
+<head>
+    <style>
+       
+       .flex
+       {
+        width: 400px;
+             margin: 50px auto;  
+            background-color: white; 
+            padding: 20px; 
+            
+            border-radius: 8px; 
+            box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1); 
+       }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 style="color:white; text-align: center;">Book a Vacation</h1>
+    <div class="flex">
+    <table>
+        <form>
+        <tr>
+            <td>
+            <label for="name">Your name : </label></td>
+           <td> <input type="text" id="name" name="name" placeholder="eg:John"/>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <label for="name">Your email : </label></td>
+         <td>   <input type="text" id="name" name="name" placeholder="eg:john@gmail.com"/>
+        </td>
+    </tr>
+    <tr>
+          <td>  <label for="con">Your contact no. : </label></td>
+         <td>  <input type="text" id="con" name="con"/></td> 
+    </tr>
+    <tr>
+        <td>
+            <label for="place">Where you want to travel : </label></td>
+         <td>   <input list="place1" id="p1" name="p1"/>
+            <datalist id="place1">
+                <option value="Amsterdam"> </option>
+                <option value="London"></option>
+                <option value="US"></option>
+                <option value="UK"></option>
+            </datalist>
+            <br>
+        </td>
+    </tr>
+    <tr>
+        <td>
+        <button>Submit</button> </td>
+    </tr>
+    </form>
+</table>
+</div>
+</body>
+</html>
